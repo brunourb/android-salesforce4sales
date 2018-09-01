@@ -4,8 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import br.eti.urbano.mobile.force4sale.R;
+import br.eti.urbano.mobile.force4sale.util.DebugActivity;
 
-public class UserActivity extends AppCompatActivity {
+public class UserActivity extends DebugActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -6,8 +6,10 @@ import android.util.Log;
 import android.view.View;
 
 import br.eti.urbano.mobile.force4sale.R;
+import br.eti.urbano.mobile.force4sale.util.DebugActivity;
 
-public abstract class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends DebugActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +21,8 @@ public abstract class HomeActivity extends AppCompatActivity {
 
         switch (view.getId()){
             default:
-
+                Log.i(TAG, String.format("Id: %s",view.getId()));
+                break;
         }
     }
 }

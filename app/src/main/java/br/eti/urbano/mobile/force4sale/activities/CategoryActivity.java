@@ -14,8 +14,9 @@ import java.util.List;
 
 import br.eti.urbano.mobile.force4sale.R;
 import br.eti.urbano.mobile.force4sale.models.Category;
+import br.eti.urbano.mobile.force4sale.util.DebugActivity;
 
-public class CategoryActivity extends AppCompatActivity {
+public class CategoryActivity extends DebugActivity {
 
     protected EditText txtName;
     protected EditText txtDescription;

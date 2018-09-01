@@ -12,6 +12,7 @@ import android.util.Log;
 /* Activity que imprime logs nos métodos de ciclo de vida */
 public class DebugActivity extends AppCompatActivity {
     protected static final String TAG = "senai";
+
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
