@@ -6,4 +6,33 @@
     android:layout_height="match_parent"
     tools:context="br.eti.urbano.mobile.force4sale.activities.HomeActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/product"
+            android:onClick="abrirTela"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category"
+            android:onClick="abrirTela"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="User"
+            android:onClick="abrirTela"/>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
