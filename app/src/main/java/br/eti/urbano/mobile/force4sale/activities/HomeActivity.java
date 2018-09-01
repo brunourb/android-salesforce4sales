@@ -42,7 +42,7 @@ public class HomeActivity extends DebugActivity {
                 //call view Category
                 Log.i(TAG, "\t\tCall view Category ");
 
-                intent = new Intent(this, ProductActivity.class);
+                intent = new Intent(this, CategoryActivity.class);
                 bundle = new Bundle();
                 bundle.putString("nome","Tela de produto");
                 intent.putExtras(bundle);
@@ -53,7 +53,7 @@ public class HomeActivity extends DebugActivity {
                 //call view user
                 Log.i(TAG, "\t\tCall view User ");
 
-                intent = new Intent(this, ProductActivity.class);
+                intent = new Intent(this, UserActivity.class);
                 bundle = new Bundle();
                 bundle.putString("nome","Tela de produto");
                 intent.putExtras(bundle);
