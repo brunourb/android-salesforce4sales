@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/product"
+            android:text="@string/btn_name_product"
             android:onClick="abrirTela"/>
 
         <Button
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/category"
+            android:text="@string/btn_name_category"
             android:onClick="abrirTela"/>
 
         <Button
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="User"
+            android:text="@string/btn_name_user"
             android:onClick="abrirTela"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

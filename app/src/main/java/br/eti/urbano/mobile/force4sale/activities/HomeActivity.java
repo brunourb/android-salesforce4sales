@@ -29,11 +29,16 @@ public class HomeActivity extends DebugActivity {
             case R.id.btnProduto:
                 //call view Product
                 Log.i(TAG, "\t\tCall view Product ");
-
+                //Intent é uma intenção para o sistema operacional executa
+                //para chamar uma nova tela
                 intent = new Intent(this, ProductActivity.class);
+
+                //O objeto bundle vc pode "opcionalmente" passar dados entre as telas.
                 bundle = new Bundle();
                 bundle.putString("nome","Tela de produto");
                 intent.putExtras(bundle);
+
+                //Neste método a sistema abre a tela definida na Intent.
                 startActivity(intent);
 
                 break;
