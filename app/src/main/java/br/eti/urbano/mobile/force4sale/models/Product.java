@@ -12,11 +12,12 @@ public class Product {
 
 	private BigDecimal value;
 
+	private BigDecimal quantity;
+
+	///////////////////
 	private List<Photo> photo;
 
-	private Integer quantity;
-
-	public Product(String name, String description, BigDecimal value, Integer quantity) {
+	public Product(String name, String description, BigDecimal value, BigDecimal quantity) {
 		this.name = name;
 		this.description = description;
 		this.value = value;
@@ -56,11 +57,11 @@ public class Product {
 		this.photo = photo;
 	}
 
-	public Integer getQuantity() {
+	public BigDecimal getQuantity() {
 		return quantity;
 	}
 
-	public void setQuantity(Integer quantity) {
+	public void setQuantity(BigDecimal quantity) {
 		this.quantity = quantity;
 	}
 
